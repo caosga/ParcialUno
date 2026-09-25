@@ -5,7 +5,7 @@ public class Huesped {
     public String nombreCompleto, documentoIdentidad, telefono, paisProcedencia;
     private String correoElectronico;
 }
-public Huesped(String nombreCompleto, String documentoIdentidad, long telefono, String correoElectronico, String paisProcedencia) {
+public Huesped(String nombreCompleto, String documentoIdentidad,String telefono, String correoElectronico, String paisProcedencia) {
     this.nombreCompleto = nombreCompleto;
     this.documentoIdentidad = documentoIdentidad;
     this.telefono = telefono;
@@ -32,7 +32,7 @@ public long getTelefono() {
     return telefono;
 }
 
-public void setTelefono(long telefono) {
+public void setTelefono(String telefono) {
     this.telefono = telefono;
 }
 
